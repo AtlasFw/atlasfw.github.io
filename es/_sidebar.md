@@ -1,2 +1,2 @@
-* [Inicio](/es/intro)
+* [Inicio](/es/)
 * [Contribuidores](/es/contributors)
