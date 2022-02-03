@@ -1,1 +1,2 @@
-* [Inicio](/#/es/intro.md)
+* [Inicio](/es/intro)
+* [Contribuidores](/es/contributors)
