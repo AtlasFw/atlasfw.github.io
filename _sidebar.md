@@ -1,4 +1,4 @@
 * [Home](/)
 * [Import/Export](/import)
-<!-- * [Core](/core) -->
+* [Core](/core/)
 * [Contributors](/contributors)
