@@ -43,23 +43,17 @@
   <script>
     this.localStorage.clear()
     window.$docsify = {
-      el: '#app',
-      homepage: '/es/intro.md',
-      loadSidebar: true,
-      notFoundPage: {
-        '/': '_404.md',
-        '/es': 'es/_404.md',
-      },
+      themeColor: '#005ba6',
+      name: 'Atlas Framework Docs',
+      repo: 'AtlasFw/atlasfw.github.io',
       fallbackLanguages: ['es'],
-      relativePath: false,
+      loadSidebar: true,
+      relativePath: true,
       auto2top: true,
       autoHeader: true,
       maxLevel: 8,
       subMaxLevel: 2,
-      themeColor: '#005ba6',
-      name: 'Atlas Framework Docs',
-      repo: 'AtlasFw/atlasfw.github.io',
-      routerMode: 'hash', // Comment this line out when adding more documentation
+      routerMode: 'history', // Comment this line out when adding more documentation
       search: {
         maxAge: 86400000,
         paths: 'auto',
@@ -70,6 +64,10 @@
           '/': 'Could not find results...',
         },
         depth: 6,
+      },
+      notFoundPage: {
+        '/': '_404.md',
+        '/es': 'es/_404.md',
       },
       copyCode: {
         buttonText: 'Copy to clipboard',
