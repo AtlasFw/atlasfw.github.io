@@ -44,14 +44,14 @@
     this.localStorage.clear()
     window.$docsify = {
       el: '#app',
-      homepage: '/intro.md',
+      homepage: '/es/intro.md',
       loadSidebar: true,
       notFoundPage: {
         '/': '_404.md',
         '/es': 'es/_404.md',
       },
       fallbackLanguages: ['es'],
-      relativePath: true,
+      relativePath: false,
       auto2top: true,
       autoHeader: true,
       maxLevel: 8,
@@ -59,7 +59,7 @@
       themeColor: '#005ba6',
       name: 'Atlas Framework Docs',
       repo: 'AtlasFw/atlasfw.github.io',
-      routerMode: 'history', // Comment this line out when adding more documentation
+      routerMode: 'hash', // Comment this line out when adding more documentation
       search: {
         maxAge: 86400000,
         paths: 'auto',
