@@ -8,8 +8,8 @@ Vous trouverez ici tous les contributeurs du projet. Si vous avez contribué au 
 - **Développeur en chef:** [*Germancito*](https://github.com/Germancitoz)
 
 ## Membres de l'équipe
-- **Membre de l'équipe:** [*LittleFishy*](https://github.com/LittleFishyy)
 - **Staff/modélisation:** [*D4NTE*](https://github.com/D4NTE-4LEX)
 
 ## Contributeurs
 - [*JericoFx*](https://github.com/JericoFX)
+- [*LittleFishy*](https://github.com/LittleFishyy)
