@@ -1,2 +1,2 @@
-* [Maison](/fr/)
+* [Accueil](/fr/)
 * [Contributeurs](/fr/contributors)
