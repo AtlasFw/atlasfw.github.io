@@ -13,3 +13,4 @@ Vous trouverez ici tous les contributeurs du projet. Si vous avez contribué au 
 ## Contributeurs
 - [*JericoFx*](https://github.com/JericoFX)
 - [*LittleFishy*](https://github.com/LittleFishyy)
+- [*Space V*](https://github.com/TheSpaceGamerV2)
