@@ -58,9 +58,11 @@
       search: {
         maxAge: 86400000,
         paths: 'auto',
-        '/es/': 'Escribe para buscar...',
-        '/en/': 'Type to search...',
-        '/fr/': 'Tapez pour rechercher...',
+        placeholder: {
+          '/es/': 'Escribe para buscar...',
+          '/en/': 'Type to search...',
+          '/fr/': 'Tapez pour rechercher...',
+        },
         noData: {
           '/es/': 'No se encontraron resultados...',
           '/fr/': 'Aucun résultat n\'a pu être trouvé...',
@@ -69,13 +71,26 @@
         depth: 6,
       },
       notFoundPage: {
-        '/': '_404.md',
+        '/en': 'en/_404.md',
+        '/fr': 'fr/_404.md',
         '/es': 'es/_404.md',
       },
       copyCode: {
-        buttonText: 'Copy to clipboard',
-        errorText: 'Error copying!',
-        successText: 'Copied to clipboard!',
+        buttonText: {
+          '/en/': 'Copy to clipboard',
+          '/fr/': 'Copier dans le presse-papiers',
+          '/es/': 'Copiar al portapapeles',
+        },
+        errorText: {
+          '/en/': 'Error copying!',
+          '/fr/': 'Une erreur est survenue lors de la copie',
+          '/es/': '¡Error al copiar!',
+        },
+        successText: {
+          '/en/': 'Copied to clipboard!',
+          '/fr/': 'Copié dans le presse-papiers !',
+          '/es/': 'Copiado en el portapapeles.',
+        },
       },
       themeable: {
         readyTransition: true,
