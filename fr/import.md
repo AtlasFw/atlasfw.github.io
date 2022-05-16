@@ -46,7 +46,7 @@ print(overlays[joaat(modelName)][1][1]) -- Prints le hash de `mpbeach_overlays`
 ```lua
 -- Les options suivantes sont possibles.
 -- Vous pouvez trouver plus d'informations dans le lien suivant.
--- https://github.com/AtlasFw/atl-appearance/blob/refactor/client/skin.lua#L95
+-- https://github.com/AtlasFw/atl-appearance/blob/master/client/skin.lua#L95
 local config = {
   ped = false, -- Autoriser le fait de changer de Ped.
   tattoos = {
